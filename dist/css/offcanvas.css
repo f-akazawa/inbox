@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Style tweaks
  * --------------------------------------------------
  */
@@ -56,4 +56,9 @@ footer {
     top: 0;
     width: 50%; /* 6 columns */
   }
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
 }

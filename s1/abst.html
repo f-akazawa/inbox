@@ -44,11 +44,11 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.html">S1-INBOX</a></li>
-            <li><a href="#about">Abstract</a></li>
-            <li><a href="#inventory">Inventory</a></li>
-            <li><a href="#trajectory">Trajectory</a></li>
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#data">Data</a></li>
+            <li class="active"><a href="#about">Abstract</a></li>
+            <li><a href="inve.html">Inventory</a></li>
+            <li><a href="traj.html">Trajectory</a></li>
+            <li><a href="prof.html">Profile</a></li>
+            <li><a href="data.html">Data</a></li>
             <li><a href="papers.html">Papers</a></li>
           </ul>
         </div><!-- /.nav-collapse -->
@@ -57,31 +57,33 @@
 
     <div class="container">
 
-      <div class="row row-offcanvas row-offcanvas-right">
+      <div class="starter-templete">
 
-        <div class="col-xs-12 col-sm-12">
+        <div class="col-md-12">
           <p class="pull-right visible-xs">
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
+		</div>
           <div class="row">
-            <div class="col-12 col-sm-12 col-lg-12">
+            <div class="col-md-12">
               <h2>S1-INBOX</h2>
               <p>The principal goals of the S1-INBOX were to deploy autonomous platforms such as floats to acquire physical-biogeochemical data that could be used to resolve mesoscale eddies, and to quantify impacts of physical processes on biogeochemical phenomena in the oligotrophic subtropical ocean. Major components of the first full-scale field experiment, S1-INBOX, were intensive deployment of profiling floats with oxygen sensors (Optode 3830) near the biogeochemical time-series station S1 (30oN, 145oE) south of the Kuroshio Extension. We deployed 24 floats in spring and summer 2011 with profiling cycles of 2 days in a square area (about 150 km on each side) (Fig.1) centered at station S1; these 24 floats were deployed in the northwestern part of a cyclonic eddy (Fig.2). The horizontal (30 km) and temporal (2 days) sampling interval of the data has enabled us to resolve mesoscale eddies (with horizontal scales of tens to hundreds of kilometers and temporal scales of several days to months) and ocean responses to atmospheric forcing. 
 Since winter 2010, JAMSTEC has maintained a mooring system at S1; the system consists of a profiling buoy equipped with conductivity-temperature-depth-oxygen (CTDO) sensors and a fast repetition rate fluorometer (FRRF) that make measurements in the top 150 m every one or two days, an acoustic Doppler current profiler (ADCP) measuring horizontal velocity every hour at 60-460 m depth with a resolution of 8 m, and time-series sediment traps at 200, 500, and 5000 m. A series of multi-disciplinary ship observations around station S1 have been conducted in winter and fall 2010, and in winter, spring, and summer 2011. Satellite altimetry, ocean color, and sea surface temperature data and atmospheric reanalysis data are also important sources of information.
 In order to fully utilize data from the float array with a nominal resolution of "30 km   2 days" for describing mesoscale physical and biogeochemical fields, oxygen sensors should be calibrated appropriately, and oxygen data should be adjusted. We compared oxygen data from each float with the oxygen data from the temporally and spatially nearest shipboard fast-response oxygen sensor (RINKO III, JFE Advantech Co., Ltd., http://www.jfe-advantech.co.jp/eng/ocean/rinko/rinko3.html). The sensors were calibrated to Winkler oxygen data. The RINKO III is an optical measurement principle sensor with a 1-s response time; this system provides oxygen data at 1-dbar resolution. We found that the desolved oxygen values measured by the Optode 3380 were lower than those measured by the RINKO III by up to 30  mol/kg. This difference is consistent with the previously reported bias of Optode sensors deployed on profiling floats (e.g., Kobayashi et al., 2006) and is larger than the accuracy provided by AANDERAA. We adjusted the oxygen data obtained by the floats according to the calibration equations proposed by Uchida et al. (2008). The adjusted oxygen data will be released soon.</p>
             </div><!--/span-->
-			<div class "col-6 col-sm-6 col-lg-6">
+		  </div>
+		  <div class="row">
+			<div class "col-md-3">
 			  <img src="img/fig1.png">
 			  <p>Figure 1: The map of float's deployment.</p>
 			</div><!-- span -->
-			<div class "col-6 col-sm-6 col-lg-6">
+			<div class "col-md-3">
 			  <img src="img/fig2.png">
 			  <p>Figure 2: The float location on 1st August, 2011, superimposed on the sea surface height anomaly data (AVISO) on the same day.</p>
 			</div><!-- span -->
           </div><!--/row-->
-        </div><!--/span-->
-      </div><!--/row-->
-
+        </div>
+      
       <hr>
 
       <footer>
