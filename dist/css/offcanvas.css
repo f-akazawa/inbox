@@ -74,9 +74,14 @@ img: {
 /* default font size setting is body section */
 
 p {
-font-size: 1.3em;
+	font-size: 1.3em;
 }
 
 a {
-font-size: 1.3em;
+	font-size: 1.3em;
+}
+
+.jumbotron{
+	color: white;
+	background-color: #46b8da;
 }
