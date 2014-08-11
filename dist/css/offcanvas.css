@@ -9,6 +9,9 @@ body {
 body {
   padding-top: 46px;
 }
+boby {
+  font-size: 62.5%;
+}
 footer {
   padding: 30px 0;
 }
@@ -68,6 +71,8 @@ img: {
      height: auto;
 }
 
+/* default font size setting is body section */
+
 p {
-font-size: 105%;
+font-size: 1.1em;
 }
